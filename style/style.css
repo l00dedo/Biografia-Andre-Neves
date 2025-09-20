@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=DynaPuff:wght@400..700&family=Italianno&family=Original+Surfer&family=Passion+One:wght@400;700;900&family=Righteous&family=Sigmar+One&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bebas+Neue&family=Cal+Sans&family=DynaPuff:wght@400..700&family=Italianno&family=Original+Surfer&family=Passion+One:wght@400;700;900&family=Righteous&family=Sigmar+One&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bebas+Neue&family=Cal+Sans&family=DynaPuff:wght@400..700&family=Italianno&family=Original+Surfer&family=Passion+One:wght@400;700;900&family=Righteous&family=Sigmar+One&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
 --cor-1:#A3BFD9;
 --cor-2:#F4C6C3;
@@ -7,4 +13,90 @@
 --cor-4:#F6E7B4;
 --cor-5:#F2F2F2;
 --cor-6:#7D5A50;
+
+--fonte-titulo: 'Sigmar One', sans-serif;
+--fonte-cursiva: 'Arizonia', cursive;
+--fonte-principal: 'Righteous', sans-serif;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor-5);
+    height: 100vh;
+}
+
+header {
+    background-color: var(--cor-1);
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.256);
+    border-radius: 0px 0px 15px 15px;
+    font-size: 4vw;
+}
+
+header > h1 {
+    font-family: var(--fonte-titulo);
+    font-style: small-caps;
+    color: var(--cor-4);
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.341);
+}
+
+header > p {
+    font-family: var(--fonte-cursiva);
+    font-weight: 700;
+}
+
+main {
+    font-family: var(--fonte-principal);
+    font-size: 3vw;
+}
+
+main h1 {
+    text-align: center;
+}
+
+section#s-re {
+    color: black;
+    min-width: 500px;
+    padding: 20px;
+}
+
+section#s-re p {
+    background-color: rgba(128, 128, 128, 0.385);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+section#f-c {
+    padding: 20px;
+    background-color: var(--cor-2);
+    margin-bottom: 50px;
+}
+
+#f1 {
+    background-color: var(--cor-3);
+    text-align: center;
+    border-radius: 15px;
+}
+
+#f2 {
+    text-align: center;
+    background-color: var(--cor-3);
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+section#re p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+footer {
+
+}
+
