@@ -70,6 +70,8 @@ section#s-re p {
     background-color: rgba(128, 128, 128, 0.385);
     padding: 20px;
     border-radius: 20px;
+    width: 75%;
+    margin: auto;
 }
 
 section#f-c {
