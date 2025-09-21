@@ -62,7 +62,7 @@ main h1 {
 
 section#s-re {
     color: black;
-    min-width: 500px;
+    max-width: 500px;
     padding: 20px;
 }
 
@@ -70,7 +70,7 @@ section#s-re p {
     background-color: rgba(128, 128, 128, 0.385);
     padding: 20px;
     border-radius: 20px;
-    width: 75%;
+    width: 45%;
     margin: auto;
 }
 
