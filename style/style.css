@@ -78,6 +78,23 @@ section#f-c {
     margin-bottom: 50px;
 }
 
+section#re {
+    margin-bottom: 30px;
+}
+
+section#a-i {
+    text-align: center;
+    background-color: var(--cor-6);
+    margin: 0px 20px 30px 20px ;
+    border-radius: 15px;
+    color: white;
+}
+
+section#e-l {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 #f1 {
     background-color: var(--cor-3);
     text-align: center;
@@ -91,12 +108,38 @@ section#f-c {
     border-radius: 15px;
 }
 
-section#re p {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
 footer {
-
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    padding: 20px;
+    font-size: 1.5em;
 }
+
+footer > p > a {
+    transition: 0.3s;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    background-color: var(--cor-4);
+    color: black;
+    text-decoration: underline;
+    font-style: normal;
+}
+
+ul {
+    text-align: left;
+    background-color: var(--cor-3);
+    list-style-position: inside;
+    padding-left: 50px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 15px;
+}
+
+
+
 
